@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<style>
+    .text-align-center {
+
+        text-align: center;
+        color: rgb(10, 1, 1);
+    }
+</style>
+
+<body>
+
+    <header>
+
+        <h2>Welcome Janai Sobaike </h2>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius distinctio accusantium unde, provident quibusdam laboriosam velit ducimus magnam.hte im do do kd od od od  amet consectetur adipisicing elit. Ipsum eius distinctio accusantium unde, provident quibusdam laboriosam velit ducimus magnam.hte </p>
+
+    </header>
+
+    <main>
+
+        <h3 id="name-description">Here is our dom Related</h3>
+
+        <ul>
+
+            <li class="text">Ahnaf</li>
+            <li class="text">Tahmid</li>
+            <li class="text">Hasan</li>
+
+        </ul>
+    </main>
+
+    <section>
+
+        <h4>Here is food items</h4>
+
+        <ul>
+            <li>khai apple</li>
+            <li>khai grape</li>
+            <li>khai water</li>
+        </ul>
+
+    </section>
+
+
+    
+
+    <footer>
+
+        <p class="text-align-center">All rights reserved.</p>
+
+    </footer>
+
+
+    <script src="js/dom.js"></script>
+
+
+    <!-- <script>
+
+        const Sattro = {
+
+            name: 'Sumona',
+            ID: 13,
+            Sattro: function (Somoy){
+
+                console.log(Somoy, 'Porasuna korso naki');
+            }
+        }
+    </script>
+
+    <script>
+
+        console.log('Welcome');
+
+    </script> -->
+
+    <script>
+        const liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection);
+        for( const li of liCollection){
+
+
+            // console.log(li);
+            console.log(li.innerText);
+        }
+    </script>
+
+</body>
+
+</html>
